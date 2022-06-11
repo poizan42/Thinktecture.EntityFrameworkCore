@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <Copyright>(c) $([System.DateTime]::Now.Year), Pawel Gerr. All rights reserved.</Copyright>
-    <VersionPrefix>4.2.3</VersionPrefix>
+    <VersionPrefix>5.0.0-ef.7.0.0-preview.6.22309.1</VersionPrefix>
     <Authors>Pawel Gerr</Authors>    
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageProjectUrl>https://dev.azure.com/pawelgerr/Thinktecture.EntityFrameworkCore</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PawelGerr/Thinktecture.EntityFrameworkCore</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://pawelgerr@dev.azure.com/pawelgerr/Thinktecture.EntityFrameworkCore/_git/Thinktecture.EntityFrameworkCore</RepositoryUrl>
+    <RepositoryUrl>https://github.com/PawelGerr/Thinktecture.EntityFrameworkCore.git</RepositoryUrl>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <RootNamespace>Thinktecture</RootNamespace>
     <TargetFramework>net6.0</TargetFramework> 
