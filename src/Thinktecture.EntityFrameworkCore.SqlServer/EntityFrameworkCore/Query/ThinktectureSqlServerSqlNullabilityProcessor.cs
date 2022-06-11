@@ -7,10 +7,10 @@ using Thinktecture.EntityFrameworkCore.Query.SqlExpressions;
 namespace Thinktecture.EntityFrameworkCore.Query;
 
 /// <summary>
-/// Extends <see cref="SqlServerSqlNullabilityProcessor"/>.
+/// Extends <see cref="SqlNullabilityProcessor"/>.
 /// </summary>
 [SuppressMessage("Usage", "EF1001", MessageId = "Internal EF Core API usage.")]
-public class ThinktectureSqlServerSqlNullabilityProcessor : SqlServerSqlNullabilityProcessor
+public class ThinktectureSqlServerSqlNullabilityProcessor : SqlNullabilityProcessor
 {
    /// <inheritdoc />
    public ThinktectureSqlServerSqlNullabilityProcessor(RelationalParameterBasedSqlProcessorDependencies dependencies, bool useRelationalNulls)
