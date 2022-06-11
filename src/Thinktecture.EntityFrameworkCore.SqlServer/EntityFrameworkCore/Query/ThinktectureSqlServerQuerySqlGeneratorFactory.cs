@@ -14,6 +14,7 @@ public class ThinktectureSqlServerQuerySqlGeneratorFactory : IQuerySqlGeneratorF
    /// Initializes new instance of <see cref="ThinktectureSqlServerQuerySqlGeneratorFactory"/>.
    /// </summary>
    /// <param name="dependencies">Dependencies.</param>
+   /// <param name="typeMappingSource">Type mapping source.</param>
    /// <param name="databaseProviderFactory">Factory.</param>
    public ThinktectureSqlServerQuerySqlGeneratorFactory(
       QuerySqlGeneratorDependencies dependencies,

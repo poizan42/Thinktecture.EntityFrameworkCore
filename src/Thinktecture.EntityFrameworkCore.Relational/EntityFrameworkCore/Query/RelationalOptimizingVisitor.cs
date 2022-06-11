@@ -31,11 +31,11 @@ public class RelationalOptimizingVisitor : DefaultSqlExpressionVisitor
    /// <summary>
    /// Replaces tables with temp tables.
    /// </summary>
-   /// <param name="selectExpression">Select expression to visit.</param>
-   /// <returns>Visited select expression.</returns>
-   public SelectExpression Process(SelectExpression selectExpression)
+   /// <param name="queryExpression">Query expression to visit.</param>
+   /// <returns>Visited query expression.</returns>
+   public Expression Process(Expression queryExpression)
    {
-      return (SelectExpression)VisitSelect(selectExpression);
+      return Visit(queryExpression);
    }
 
    /// <inheritdoc />
